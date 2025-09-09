@@ -1,0 +1,49 @@
+{
+  "about": {
+    "name": "Arun Kumar",
+    "role": "Software Developer",
+    "description": "I am a passionate and enthusiastic learner currently pursuing B.E. in Electrical and Electronics Engineering at Anand Institute of Higher Technology with a CGPA of 8.20. I enjoy building full-stack applications and continuously explore new technologies. My goal is to create efficient, scalable, and user-friendly applications while strengthening my skills in both frontend and backend development."
+  },
+  "contact": {
+    "email": "arun0362004@gmail.com",
+    "phone": "+91 9342804230",
+    "languages": ["English (Fluent)", "Tamil (Fluent)"]
+  },
+  "skills": [
+    "Java",
+    "Spring Boot",
+    "Python",
+    "SQL",
+    "NoSQL",
+    "Cloudera",
+    "Hive",
+    "HTML/CSS",
+    "JavaScript",
+    "React"
+  ],
+  "education": {
+    "degree": "B.E. Electrical and Electronics Engineering",
+    "institution": "Anand Institute of Higher Technology",
+    "year": "2021 - 2025",
+    "cgpa": "8.20"
+  },
+  "projects": [
+    {
+      "title": "Banking Backend System",
+      "description": "A backend system built using Java and Spring Boot where users can create accounts, deposit and withdraw money, and check balances. It features login authentication, transaction history, and secure data handling with MySQL integration.",
+      "link": "https://github.com/yourgithub/banking-backend-system"
+    },
+    {
+      "title": "Personal Portfolio Website",
+      "description": "A responsive personal portfolio website built using HTML, CSS, and JavaScript. It connects with a Node.js and Express backend API to dynamically display my background, skills, and projects. The website reflects my proficiency in frontend UI/UX and backend API integration.",
+      "link": "https://github.com/yourgithub/portfolio"
+    }
+  ],
+  "certificates": [
+    {
+      "title": "Java Course Participant",
+      "institute": "Green Technologies, Thoraipakkam",
+      "details": "Completed foundational training in Java, covering looping, control statements, OOPs, and array programming. Concluded with a hands-on console-based project to apply learned concepts."
+    }
+  ]
+}

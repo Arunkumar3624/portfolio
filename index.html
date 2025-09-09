@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Arun Kumar - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Main Menu (Card Grid) -->
+  <div id="main-menu" class="grid-container">
+    <div class="card" onclick="showSection('about')">About Me</div>
+    <div class="card" onclick="showSection('education')">Education</div>
+    <div class="card" onclick="showSection('skills')">Skills</div>
+    <div class="card" onclick="showSection('certificates')">Certificates</div>
+    <div class="card" onclick="showSection('projects')">Projects</div>
+    <div class="card" onclick="showSection('contact')">Contact</div>
+  </div>
+
+  <!-- Detail Sections -->
+  <div id="detail-view">
+    <div id="about" class="detail-section bg-about"></div>
+    <div id="education" class="detail-section bg-education"></div>
+    <div id="skills" class="detail-section bg-skills"></div>
+    <div id="certificates" class="detail-section bg-certificates"></div>
+    <div id="projects" class="detail-section bg-projects"></div>
+    <div id="contact" class="detail-section bg-contact"></div>
+    <button class="back-btn" onclick="goBack()">← Back</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
